@@ -1,3 +1,5 @@
 build
 guidopinkas.*
+download/TwAutoComplete
+download/*.sh
 .DS_Store
