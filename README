@@ -2,9 +2,9 @@
 
 == Introduction
 
-This script is an extension to BareBones TextWrangler (http://www.barebones.com/products/textwrangler/). 
-On invocation, it gives you an auto-completion for the word your cursor is on, similar to those found in 
-IDEs. It does this by looking through all words found in the current document only, but this can really save 
+This script is an extension to BareBones TextWrangler (http://www.barebones.com/products/textwrangler/).
+On invocation, it auto-completes the word your cursor is on, similar to auto-completion found in IDEs.
+The script looks through all the words found in the current document only, but this can really save
 you time nonetheless.
 
 == Installation
@@ -12,30 +12,36 @@ you time nonetheless.
 1. Download the latest TwAutocomplete.zip from here: http://github.com/bluecat76/TwAutoComplete/raw/master/download/TwAutoComplete_r1.zip
 2. Open TextWrangler and select "Open Scripts Folder" from the scripts menu (scroll symbol).
 3. Extract TwAutoComplete.zip and copy the folder TwAutoComplete to the scripts folder opened before.
-4. Set a key combination to run it (f.i. CTRL-SPACE). You can do this by selecting 
-"Window/Palettes/Scripts" in the Menu and using the "Set Key..." button for the 
+4. Set a key combination to run it (f.i. CTRL-SPACE). You can do this by selecting
+"Window/Palettes/Scripts" in the Menu and using the "Set Key..." button for the
 "run TwAutoComplete" script inside the folder.
 
 == Usage
 
-You can use the selected key kombination to complete the word you begin to write. Use the 
-key kombination repeatedly to switch through all available completion possibilities.
-If you have f.i. a text like 'This is a test text.' and you invoke TwAutoComplete after 
-writing a 't' afterwards, you get 'est' and on the next invocation 'ext' as completion selection. 
+You can use the selected key combination to complete a word as you begin to write. Use the
+key combination repeatedly to switch through all available completion possibilities.
+For example, if you are editing a file with only this text in it, 'This is a test text.'
+If you type a 't' after this line and invoke TwAutoComplete you will get 'est' with the first
+invocation and on the next invocation 'ext' as completion selections.
 
 == Description
 
 Since Barebones removed the BBXT-Plug-In interface from TextWrangler with version 3.5,
-TwAutoComplete now uses a special commandline tool (findcomp) using the script interface
+TwAutoComplete now uses a special commandline tool (findcomp) using a script interface
 to find completions to the current selection.
-
-Please let me know, if you have improvements. And no, a selection box of completions is 
-NOT possible using this tool. At least not as far as I know, if you know better, please 
-write me an e-mail.
 
 == Author
 
 * Guido Pinkas
+
+== Contributions
+
+Please let me know, if you have improvements. And no, a selection box of completions is
+NOT possible using this tool. At least not as far as I know, if you know better, please
+write me an e-mail.
+
+Thanks to:
+* Daniel B. - improving the readme
 
 == Changelog
 
@@ -64,4 +70,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE. 
